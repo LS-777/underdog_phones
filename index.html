@@ -34,8 +34,8 @@
 
 
         <section data-aos="fade-up" class="title__sec py-5 text-center" style="margin-bottom:0">
-            <div class="heading">
-                <h1 class="text-logo my-5 py-5 text-center">
+            <div class="heading col-sm-12">
+                <h1 class="text-logo my-5 py-5">
                     UNDERDOG PHONES <img class="flag" src="img/china.png" width="150px"/>
                 </h1>
             </div>
@@ -46,7 +46,7 @@
 
         <nav class="navbar navbar-expand-sm nav__1 fixed-top">
             <a class="navbar-brand goto" href="#top"><img src="img/fav.png" class="text-logo" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -66,8 +66,8 @@
 
 
         <section class="intro py-5" id="intro" data-aos="zoom-in-down">
-            <div class="intro__presentation row my-5">
-                <div class="col-md-8 text-center mx-auto">
+            <div class="intro__presentation row">
+                <div class="col-md-8 mx-auto">
                     <!--
 <img data-aos="flip-left" data-aos-duration="3000" src="img/oneplus.png" class="intro__img img-fluid float-right" alt="one_plus_6">
 -->
@@ -76,23 +76,23 @@
                         <div class="carousel-inner">
 
                             <div class="carousel-item active">
-                                <p class="text-right mt-4 px-3"> A selection of the best smartphones from China, according to defined price ranges.</p>
-                                <img class="d-block float-right" src="img/slide/mix2.png" alt="First slide">
+                                <p class="text-right mt-4">Price ranges selection.</p>
+                                <img class="d-block float-right intro__img img-fluid" src="img/slide/mix2.png" alt="First slide">
                             </div>
 
                             <div class="carousel-item">
-                                <p class="text-justify text-center mt-4 px-3"> Expert choices, best prices.</p>
-                                <img class="d-block mx-auto" src="img/slide/oneplus.png" alt="Second slide">
+                                <p class="text-justify text-center mt-4"> Expert choices, best providers.</p>
+                                <img class="d-block mx-auto intro__img img-fluid" src="img/slide/oneplus.png" alt="Second slide">
                             </div>
 
                             <div class="carousel-item">
-                                <p class="text-left mt-4 px-3"> Weekly updated, you can be sure to find your ideal phone.</p>
-                                <img class="d-block  float-left" src="img/slide/p20.png"alt="Third slide">
+                                <p class="text-left mt-4"> Weekly updated.</p>
+                                <img class="d-block float-left intro__img img-fluid" src="img/slide/p20.png"alt="Third slide">
                             </div>
 
-                            <div class="row col-12 py-5 text-center mx-auto">
-                                <div class="mx-auto">
-                                    <a href="#pills-tab" class="btn btn-lg btn-outline-light mb-5 goto">Let's go!</a>
+                            <div class="row col-12 py-5 text-center mx-auto mb-5">
+                                <div class="mx-auto pb-5 mb-5">
+                                    <a href="#pills-tab" class="btn btn-lg btn-outline-light font-weight-bold mb-5 goto go__btn">Let's go!</a>
                                 </div>
                             </div>
 
@@ -112,10 +112,10 @@
 
             <div class="container site">
 
-                <div class="col-md-8 mt-5 mx-auto">
+                <div class="col-md-10 mt-5 mx-auto">
                     <h2 data-aos="fade-up" class="text-center text-uppercase font-weight-bold">Phones by price range</h2>
                     <hr class="divider mt-3 mb-5">
-                    <p data-aos="fade-left" class="mt-3 ">Smartphones selection within some price ranges, make your choice here and/or see detailed specs on our partner site.</p>
+                    <p data-aos="fade-left" class="mt-3 main__pres ">Smartphones selection within some price ranges, make your choice here and/or see detailed specs on our partner site.</p>
                 </div>
 
                 <nav class="mt-5">
@@ -138,7 +138,6 @@
                     </ul>
                 </nav>
 
-
                 <div class="tab-content" id="pills-tabContent">
 
                     <!-- under 200 pane -->
@@ -150,23 +149,27 @@
 
 
                                     <img src="img/lemax2.jpg" alt="phone-img" class="rounded img-fluid p-3">
+                                    <div class="price"><h3 class="text-center">199€</h3></div>
+
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">199€</h3>
                                         <hr>
-                                        <h4>LeEco
-                                            <em>Le Max 2</em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>6go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>64go</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">LeEco
+                                                <em>Le Max 2</em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>6go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>64go</em>
+                                            </h6>
 
 
-                                        <h6>Rating:
-                                            <em>9.9/10</em>
-                                        </h6>
+                                            <h6>Rating:
+                                                <em>9.9/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order btn-outline font-weight-bold" role="button">
                                                 <span>
@@ -184,20 +187,23 @@
 
                                     <img src="img/z17.jpg" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">170€</h3>
+                                        <div class="price"><h3 class="text-center">170€</h3></div>
                                         <hr>
-                                        <h4>ZTE Nubia
-                                            <em>Z17 Lite</em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>6go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>64go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>9.9/10</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">ZTE Nubia
+                                                <em>Z17 Lite</em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>6go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>64go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>9.9/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -215,21 +221,24 @@
 
                                     <img src="img/ulpow3s.jpg" height="348px" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">169€</h3>
+                                        <div class="price"><h3 class="text-center">169€</h3></div>
                                         <hr>
-                                        <h4>Ulefone
-                                            <em>Power 3s
-                                            </em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>4go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>64go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>9.5/10</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">Ulefone
+                                                <em>Power 3s
+                                                </em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>4go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>64go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>9.5/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -255,20 +264,23 @@
 
                                     <img src="img/xiaomi-mi-mix-2.png" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">300€</h3>
+                                        <div class="price"><h3 class="text-center">300€</h3></div>
                                         <hr>
-                                        <h4>Xiaomi
-                                            <em>Mi mix 2</em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>6go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>64go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>10/10</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">Xiaomi
+                                                <em>Mi mix 2</em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>6go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>64go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>10/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -286,21 +298,24 @@
 
                                     <img src="img/azd.png" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">340€</h3>
+                                        <div class="price"><h3 class="text-center">340€</h3></div>
                                         <hr>
-                                        <h4>Asus
-                                            <em>ZenFone 3 Deluxe
-                                            </em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>6go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>64go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>9.9/10</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">Asus
+                                                <em>ZenFone 3 Dx
+                                                </em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>6go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>64go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>9.9/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -328,20 +343,23 @@
 
                                     <img src="img/z17.jpeg" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">599€</h3>
+                                        <div class="price"><h3 class="text-center">599€</h3></div>
                                         <hr>
-                                        <h4>ZTE Nubia
-                                            <em>Z17</em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>12go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>256go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>11/10</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">ZTE Nubia
+                                                <em>Z17</em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>12go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>256go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>11/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -359,20 +377,23 @@
 
                                     <img src="img/67.png" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">599€</h3>
+                                        <div class="price"><h3 class="text-center">599€</h3></div>
                                         <hr>
-                                        <h4>OnePlus
-                                            <em>6</em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>12go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>256go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>11/10</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">OnePlus
+                                                <em>6</em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>12go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>256go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>11/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -390,20 +411,23 @@
 
                                     <img src="img/mate10.jpg" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">599€</h3>
+                                        <div class="price"><h3 class="text-center">599€</h3></div>
                                         <hr>
-                                        <h4>Huawei
-                                            <em>Mate 10</em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>12go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>256go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>11/10</em>
-                                        </h6>
+                                        <div class="specs mx-4">
+
+                                            <h4 class="text-center font-weight-bold">Huawei
+                                                <em>Mate 10</em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>12go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>256go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>11/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -428,20 +452,22 @@
 
                                     <img src="img/p20pro.jpg" alt="phone-img" class="rounded img-fluid p-3">
                                     <div class="caption mx-2">
-                                        <h3 class="text-center">999€</h3>
+                                        <div class="price"><h3 class="text-center">999€</h3></div>
                                         <hr>
-                                        <h4>Huawei
-                                            <em>P20 pro</em>
-                                        </h4>
-                                        <h6>Ram:
-                                            <em>12go</em>
-                                        </h6>
-                                        <h6>Rom:
-                                            <em>256go</em>
-                                        </h6>
-                                        <h6>Rating:
-                                            <em>11/10</em>
-                                        </h6>
+                                        <div class="specs">
+                                            <h4 class="text-center font-weight-bold">Huawei
+                                                <em>P20 pro</em>
+                                            </h4>
+                                            <h6>Ram:
+                                                <em>12go</em>
+                                            </h6>
+                                            <h6>Rom:
+                                                <em>256go</em>
+                                            </h6>
+                                            <h6>Rating:
+                                                <em>11/10</em>
+                                            </h6>
+                                        </div>
                                         <div class="mx-auto text-center my-4">
                                             <a href="#" class="btn btn-block btn-order font-weight-bold" role="button">
                                                 <span>
@@ -459,6 +485,9 @@
                 </div>
             </div>
         </section>
+        <section class="brands">
+            
+        </section>
 
         <footer data-aos="fade-down" class="title__sec pb-5 pt-2 text-center" style="margin-bottom:0">
             <div class="heading">
@@ -467,7 +496,7 @@
                         UNDERDOG PHONES <img src="img/fav.png" class="text-logo" alt="logo">
                     </h3>
 
-                <span class="text-logo3">Find your ideal smartphone quickly.</span>
+                    <span class="text-logo3">Find your ideal smartphone quickly.</span>
                 </a>
 
                 <span class="text-logo3">2018 - Lionel SUVELOR &#169; - All rights reserved</span>
