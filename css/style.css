@@ -1,0 +1,131 @@
+
+body{
+    height: 100vh;
+    width: 100wh;
+}
+
+
+
+/* top part */
+
+/* title section with h1 */
+.title__sec{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+.text-logo{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size: 4rem;
+    text-shadow: 0 0 26px #f6327e,0 22px 26px rgba(0,0,0,.4);
+}
+/* main navbar */
+.nav__1{
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.nav__1.scrolled {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* end main navbar */
+
+/* end top part */
+
+
+
+
+
+/* footer typography */
+.text-logo2{
+    font-family: 'Work Sans', sans-serif;
+    color:white;
+    font-size: 2rem;
+    text-shadow: 0 0 26px #f6327e,0 22px 26px rgba(0,0,0,.4);
+}
+
+.text-logo3{
+    font-family: 'Work Sans', sans-serif;
+    color:white;
+    font-size: 1rem;
+    text-shadow: 0 0 26px #f6327e,0 22px 26px rgba(0,0,0,.4);
+}
+
+.text-logo3:hover{
+    color:#e7497b;
+}
+
+/*end footer */
+
+
+
+/* all nav links */
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-link:active{
+    background-color:black !important;
+    color: #e04a81;
+}
+
+
+
+
+
+
+/* ------- intro part  -------- */
+.intro{
+    height: 99vh;
+    width: 100wh;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.intro__img{
+    max-height: 77%;
+    margin-right: 17%;
+}
+
+.intro__presentation{
+    color:white;
+    font-size: 1.3rem;
+    font-family: monospace, sans-serif;
+}
+
+/* -------- selection part  --------*/
+.divider{
+    border: 2px solid black;
+    width: 17%;
+}
+
+hr{
+    border: 1.5px solid #615ae1;
+    width: 33%;
+}
+
+hr:hover{
+    width:66%;
+}
+
+.btn-order{
+    border-radius: 50px;
+    border:2px solid #f34772;
+    color:#f34772;
+}
+
+.btn-order:hover{
+    background-color: #f34772;
+    color:#FFF;
+}
