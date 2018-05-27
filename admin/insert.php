@@ -4,7 +4,7 @@ require 'database.php';
 $nameError = $ramError = $romError = $priceError = $ratingError = $categoryError = $imgError = $name = $ram = $rom = $price = $rating = $category = $img = "";
 
 if(!empty($_POST))
-{   
+{
     $name       = checkInput($_POST['name']);
     $ram        = checkInput($_POST['ram']);
     $rom        = checkInput($_POST['rom']);
@@ -157,27 +157,27 @@ function checkInput($data)
                         <form class="form" role="form" action="insert.php" method="POST" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label for="name">Nom:</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="nom" value="<?php echo $name ?>">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nom" value="<?php echo $name ?>">
                                 <span class="help-inline"><?php echo $nameError; ?></span>
                             </div>
                             <div class="form-group">
                                 <label for="ram">Ram:</label>
-                                <input type="text" class="form-control" id="ram" name="ram" placeholder="ram" value="<?php echo $ram ?>">
+                                <input type="text" class="form-control" id="ram" name="ram" placeholder="Ram" value="<?php echo $ram ?>">
                                 <span class="help-inline"><?php echo $ramError; ?></span>
                             </div>
                             <div class="form-group">
                                 <label for="rom">Rom:</label>
-                                <input type="text" class="form-control" id="rom" name="rom" placeholder="rom" value="<?php echo $rom ?>">
+                                <input type="text" class="form-control" id="rom" name="rom" placeholder="Rom" value="<?php echo $rom ?>">
                                 <span class="help-inline"><?php echo $romError; ?></span>
                             </div>
                             <div class="form-group">
                                 <label for="prix">Prix: (€)</label>
-                                <input type="number" step="0.1" class="form-control" id="price" name="price" placeholder="prix" value="<?php echo $price ?>">
+                                <input type="number" step="0.1" class="form-control" id="price" name="price" placeholder="Prix" value="<?php echo $price ?>">
                                 <span class="help-inline"><?php echo $priceError; ?></span>
                             </div>
                             <div class="form-group">
                                 <label for="note">Note:</label>
-                                <input type="text" class="form-control" id="rating" name="rating" placeholder="note" value="<?php echo $rating ?>">
+                                <input type="text" class="form-control" id="rating" name="rating" placeholder="Rating: xx/10" value="<?php echo $rating ?>">
                                 <span class="help-inline"><?php echo $ratingError; ?></span>
                             </div>
                             <div class="form-group">
