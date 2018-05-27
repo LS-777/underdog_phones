@@ -139,7 +139,7 @@ body{
 /* -------- selection part  --------*/
 
 .card{
-border: 2px solid #615ae1;
+    border: 2px solid #615ae1;
 }
 
 .main{
@@ -229,11 +229,11 @@ hr:hover{
 /*  brands part */
 
 .brands{
-height: 25vh;
-width: 100%;
-background: #FC466B;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 25vh;
+    width: 100%;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -265,4 +265,21 @@ background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Fi
 /*end footer */
 
 
+/* ADMIN */
+.admin-section{
+    width: 100wh;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.admin{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.help-inline{
+    color: red;
+}
 

@@ -1,1 +1,38 @@
 afficher specs écran (taille + res), app photo, et processeur sur hover photo tel
+
+
+
+DATABASE:
+
+underdog_phones;
+
+TABLES:
+
+categories, items
+
+
+category: 
+id 
+name
+
+item:
+id - int
+name - varchar 100
+ram - varchar 15
+rom - varchar 15
+price - float
+img - varchar 250
+catgory - int (index)
+rating - varchar 30
+
+
+soit: 
+CREATE TABLE `underdog_phones`.`items` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(100) NOT NULL , `ram` VARCHAR(15) NOT NULL , `rom` VARCHAR(15) NOT NULL , `price` FLOAT NOT NULL , `img` VARCHAR(250) NOT NULL , `category` INT NOT NULL , `rating` VARCHAR(30) NOT NULL , PRIMARY KEY (`id`), INDEX (`category`)) ENGINE = InnoDB;
+
+
+
+
+création catégories via mysql:
+
+INSERT INTO `categories` (`id`, `name`) VALUES (NULL, 'under200'), (NULL, 'from200to400'), (NULL, 'from400to600'), (NULL, 'above600');
+
