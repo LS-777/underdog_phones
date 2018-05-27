@@ -7,3 +7,5 @@
 # Check it out!
 
 https://ls-777.github.io/underdog_phones/
+
+as you know, you'll only be able to see the static side, but, it's beautiful, don't miss it!
